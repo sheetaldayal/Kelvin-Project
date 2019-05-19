@@ -1,27 +1,27 @@
-/* Assign a constant type variable kelvin that defines today's temperature forecast*/
+//Assign a constant type variable kelvin that defines today's temperature forecast
 const kelvin = 350;
 
-/*Convert Kelvin to Celsius*/
+//Convert Kelvin to Celsius
 const celsius = kelvin-273;
 
-/*Print the temp in Celsius*/
+//Print the temp in Celsius
 console.log(celsius);
 
-/*Use equation to convert Celsius to Fahrenheit*/
+//Use equation to convert Celsius to Fahrenheit
 let fahrenheit = celsius * (9/5)+32;
 
-/*print temp in Fahrenheit*/
+//Print temp in Fahrenheit
 console.log(fahrenheit);
 
-/*Round down and print the Fahrenheit temperature*/
+//Round down and print the Fahrenheit temperature
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
 
-/*Use the equation to convert Celsius to Newton*/
+//Use the equation to convert Celsius to Newton
 let newton = celsius*(33/100);
 
-/*Round down the Newton temperature*/
+//Round down the Newton temperature
 newton = Math.floor(newton);
 
-/*Print the temperature in Newton*/
+//Print the temperature in Newton
 console.log(`The temperature is ${newton} degrees Newton`)
